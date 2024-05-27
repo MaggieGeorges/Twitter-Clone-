@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1da1f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+main {
+ 
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0; /* Ensure no margin between header and main */
+}
+
+.profile {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.cover-photo {
+  background-color: #ccc;
+  height: 150px;
+  width: 100%;
+}
+
+.profile-photo {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -50px;
+  left: 20px;
+  border: 3px solid #fff;
+}
+
+.user-details {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: -50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.user-details p {
+  margin: 5px 0;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.posts-comments {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.posts-container, .comments-container {
+  width: 48%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.post, .comment {
+  margin-bottom: 20px;
+}
+
+.post-header, .comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-info, .comment-info {
+  display: flex;
+  align-items: center;
+ 
+}
+.post-info .name {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #1da1f2;
+}
+.verified {
+  color: #1da1f2; /* Twitter's blue color */
+  margin-right: 5px;
+}
+.post-footer, .comment-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-top: -75px;
+  border: 5px solid white;
+  position: relative;
+  z-index: 1;
+}
+
+.cover-photo {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.comment-link-icon {
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.comment-link-icon:hover {
+  color: blue;
+}
